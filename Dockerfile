@@ -11,5 +11,5 @@ ENV FLASK_APP=etl/app.py
 
 CMD ["flask", "run", "--host=0.0.0.0"]
 
-CMD ["streamlit", "run", "streamlit/app.py", "--server.port=8501", "--server.address=0.0.0.0"]
+CMD ["streamlit", "run", "app.py", "--server.port=8501", "--server.address=0.0.0.0"]
 
